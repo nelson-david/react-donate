@@ -14,12 +14,13 @@ const Navbar = () => {
 
 	return (
 		<>
-			{sidebarState?<Sidebar />:''}
+			{sidebarState?<Sidebar toggleSidebar={toggleSidebar} />:''}
 			<nav className={`navbar navbar-expand sticky-top custom__nav`}>
 				<Link
 					className="navbar-brand"
 					to="/"
 					title="home"
+					onClick={() => setSidebarState(false)}
 				>
 					<img
 						src="https://i.stci.uk/sites/www.savethechildren.net/themes/stcui/img/stc_logo.svg"

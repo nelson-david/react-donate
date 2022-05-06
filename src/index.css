@@ -266,7 +266,7 @@ input:-webkit-autofill:active {
 }
 .ourwork__section .worklist__div .work__card img{
     width: 100%;
-    height: 250px;
+    height: 350px!important;
     object-fit: cover;
     object-position: center;
 }
@@ -280,7 +280,7 @@ input:-webkit-autofill:active {
     line-height: 1.04;
     letter-spacing: -1px;
     text-align: left;
-    background: var(--milk-color);
+    background: rgba(0,0,0,0.5);
 }
 .ourwork__section .worklist__div .work__card .workcard__caption h3{
     font-family: var(--oswald);
@@ -290,6 +290,7 @@ input:-webkit-autofill:active {
     padding: 0;
     margin: 0;
     transition: all .2s ease-in-out;
+    color: var(--milk-color);
 }
 .ourwork__section .worklist__div .work__card .workcard__caption span{
     padding: 10px;
@@ -399,7 +400,6 @@ input:-webkit-autofill:active {
 }
 
 .talktous__section .talktous__card{
-    border: 2px solid red;
     border-radius: 0px;
     box-shadow: none;
     background-color: var(--accent-color);
@@ -473,15 +473,137 @@ input:-webkit-autofill:active {
 }
 
 
+/* Donate Page */
+.donate__section .donateintro__card{
+    box-shadow: none;
+    height: auto;
+    padding: 50px 115px;
+    background-color: #222221;
+    background-image: url('https://media.gettyimages.com/photos/diverse-volunteers-serve-food-in-soup-kitchen-picture-id626891276?k=20&m=626891276&s=612x612&w=0&h=YGG27UvvBVHeqoFFDGyCG1srqVdigyTg9vilUIVUc_4=');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0px;
+}
+.donate__section .donateintro__card .payment__card{
+    padding: 30px 30px;
+    box-shadow: none;
+    text-align: center;
+    background-color: var(--white);
+    margin-bottom: 30px;
+}
+.donate__section .donateintro__card .payment__card legend{
+    color: var(--accent-color);
+    font-family: var(--oswald);
+    font-size: 22px;
+    font-weight: 700!important;
+    letter-spacing: 0.6px;
+}
+.donate__section .donateintro__card .payment__card p{
+    font-size: 15px;
+    font-family: var(--mulish);
+    font-weight: 500!important;
+    padding: 15px 0px;
+    margin: 0px;
+}
+.donate__section .donateintro__card .payment__card #payment__method{
+    padding: 30px 0px;
+    display: flex;
+    justify-content: center;
+}
+.donate__section .donateintro__card .payment__card #payment__method a{
+    border-radius: 0.5rem;
+    background-color: var(--accent-color);
+    color: var(--dim-white);
+    padding: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: 500!important;
+    transition: 0.3s all ease-in-out;
+    align-items: center;
+    display: flex;
+}
+.donate__section .donateintro__card .payment__card #payment__method a:nth-child(2){
+    background-color: var(--dim-white);
+    color: var(--accent-color);
+}
+.donate__section .donateintro__card .payment__card #payment__method a:hover{
+    background-color: var(--accent-dub);
+    color: var(--white);
+}
+.donate__section .donateintro__card .payment__card span{
+    font-size: 13px;
+    font-weight: 400!important;
+    display: block;
+    padding: 15px 0px;
+}
+.donate__section .donateintro__card .payment__card span svg{
+    margin-right: 5px;
+    margin-top: -2px;
+}
+.donate__section .donateintro__card h1{
+    background-color: var(--white);
+    color: var(--black);
+    text-transform: uppercase;
+    font-family: var(--oswald);
+    font-weight: 600!important;
+    border-radius: 0.2rem;
+    padding: 10px;
+    margin: 0px;
+    width: auto;
+    font-size: 40px;
+}
+.donate__section .donateintro__card h1 span{
+    color: var(--accent-color);
+}
 
 
 
 
-
-
-
-
-
+/* Custom Footer */
+.custom__footer{
+    border-top: 2px solid var(--milk-brown);
+    padding: 50px 0px;
+    padding-bottom: 0px;
+}
+.custom__footer h3.list__title{
+    font-family: var(--oswald);
+    font-size: 20px;
+    color: var(--accent-color);
+    font-weight: 600!important;
+    letter-spacing: 0.6px;
+    margin: 0px;
+    padding: 30px 0px;
+    border-bottom: 1.5px solid var(--milk-brown);
+}
+.custom__footer ul{
+    list-style: none;
+    margin: 0px;
+    padding: 30px 0px;
+}
+.custom__footer ul li{
+    padding: 8px 0px;
+    font-family: var(--Itim);
+    font-weight: 500!important;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s all ease-in-out;
+    color: var(--black);
+}
+.custom__footer ul li:hover{
+    color: var(--accent-color);
+}
+.custom__footer .footer__copyrightcard{
+    background-color: #F3F2EE;
+}
+.custom__footer .footer__copyrightcard p{
+    padding: 15px;
+    margin: 0px;
+    font-family: var(--mulish);
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 400!important;
+}
 
 
 

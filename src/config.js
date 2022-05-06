@@ -2,7 +2,7 @@ module.exports = {
     development: {
         environment: "development",
         assetURL: "http://localhost:4700",
-        aosDuration: "1700",
+        aosDuration: "1400",
         tsStyle: {
             position: "top-right",
             autoClose: 3500,

@@ -53,7 +53,7 @@ const LandingPage = () => {
 			<div className="container-fluid landingpage__container">
 				<section className="header__section">
 					<div className="row justify-content-center">
-						<div className="col-12 custom__col">
+						<div className="col-12 custom__col" data-aos="fade-in">
 							<div className="headerintro__card">
 								<div className="centertext__div">
 									<h1 className="call-to-action">MILLIONS OF CHILDREN IN 
@@ -91,7 +91,7 @@ const LandingPage = () => {
 								crisis has left children vulnerable to critical levels of 
 								hunger and poverty.
 								<br /><br />
-								We are gravely concerned for children in Ukraine, Afghanistan 
+								We are gravely concerned for children in USA, Afghanistan 
 								and around the world who might be caught in the middle of armed conflict.
 								<br /><br />
 								Their right to survival, protection and education is under 
@@ -120,7 +120,7 @@ const LandingPage = () => {
 													to="/app"
 													className="work__card">
 													<img
-														alt="Ukraine crisis"
+														alt="USA crisis"
 														loading="lazy"
 														src={work.img}
 													/>
