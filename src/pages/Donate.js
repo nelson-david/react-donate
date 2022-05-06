@@ -4,12 +4,12 @@ import * as CgIcons from "react-icons/cg";
 import { useEffect } from "react";
 
 const Donate = () => {
+
+	useEffect(() => {
+		window.scrollTo(0, 0)
+	}, [])
+
 	return (
-
-		useEffect(() => {
-			window.scrollTo(0, 0)
-		}, [])
-
 		<>
 			<div className="container-fluid donate__container">
 				<section className="donate__section">
