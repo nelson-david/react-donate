@@ -79,7 +79,7 @@ const Footer = () => {
 				3732267 and a charity registered in England and Wales with 
 				charity number 1076822. Its registered office is St Vincent 
 				House, 30 Orange Street, London, WC2H 7HH © 2022 Save the 
-				Children International | Legal | Privacy | Recruitment Privacy Policy</p>
+				Children International</p>
 			</div>
 		</footer>
 	)
