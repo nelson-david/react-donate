@@ -9,7 +9,7 @@ const Navbar = () => {
 	const [sidebarState, setSidebarState] = useState(false);
 
 	const toggleSidebar = () => {
-		sidebarState(!sidebarState);
+		setSidebarState(!sidebarState);
 	}
 
 	return (
