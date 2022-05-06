@@ -1,9 +1,15 @@
 // import { Link } from "react-router-dom";
 import * as BsIcons from "react-icons/bs";
 import * as CgIcons from "react-icons/cg";
+import { useEffect } from "react";
 
 const Donate = () => {
 	return (
+
+		useEffect(() => {
+			window.scrollTo(0, 0)
+		}, [])
+
 		<>
 			<div className="container-fluid donate__container">
 				<section className="donate__section">

@@ -2,6 +2,7 @@ import ArticleImg1 from "../assets/img/article2.webp";
 import ArticleImg2 from "../assets/img/article1.webp";
 import ArticleImg3 from "../assets/img/article3.webp";
 import ArticleCard from "../components/card/ArticleCard";
+import { useEffect } from "react";
 
 const articles = [
 	{
@@ -19,6 +20,11 @@ const articles = [
 ]
 
 const Articles = () => {
+
+	useEffect(() => {
+		window.scrollTo(0, 0)
+	}, [])
+	
 	return (
 		<div data-aos="fade-in">
 			<div className="jumbotron articlepage__header">

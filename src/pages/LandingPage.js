@@ -9,6 +9,7 @@ import ChildImg from "../assets/img/smilingchild.jpg";
 import * as BsIcons from "react-icons/bs";
 import * as FaIcons from "react-icons/fa";
 import ArticleCard from "../components/card/ArticleCard";
+import { useEffect } from "react";
 
 const recent_work = [
 	{
@@ -47,6 +48,10 @@ const LandingPage = () => {
 		e.preventDefault();
 		window.scrollTo(0, 800);
 	}
+
+	useEffect(() => {
+		window.scrollTo(0, 0)
+	}, [])
 
 	return (
 		<>
