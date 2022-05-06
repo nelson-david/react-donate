@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import * as VscIcons from "react-icons/vsc";
+import * as FaIcons from "react-icons/fa";
 import Sidebar from "./Sidebar";
 
 const Navbar = () => {
@@ -64,7 +65,7 @@ const Navbar = () => {
 					<ul className="navbar-nav" id="third_ul">
 						<li className="nav-item">
 							<span onClick={() => setSidebarState(!sidebarState)}>
-								<VscIcons.VscThreeBars />
+								{sidebarState?<FaIcons.FaTimes />:<VscIcons.VscThreeBars />}
 							</span>
 						</li>
 					</ul>

@@ -58,11 +58,11 @@ const LandingPage = () => {
 								<div className="centertext__div">
 									<h1 className="call-to-action">MILLIONS OF CHILDREN IN 
 										DANGER IN UNITED STATES.</h1>		
-									<a
-										href="donate"
+									<Link
+										to="/donate"
 										className="donate__link">
 										Donate now
-									</a>
+									</Link>
 									<br />
 									<div className="header__paragraph">
 										<p>Every war is a war against children.</p>

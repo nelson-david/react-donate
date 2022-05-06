@@ -127,6 +127,10 @@ input:-webkit-autofill:active {
     position: fixed;
     z-index: 1040;
     top: 85px;
+    -webkit-animation: SHOW-BOX 2s ease;
+    -moz-animation: SHOW-BOX 2s ease;
+    -o-animation: SHOW-BOX 2s ease;
+    animation: SHOW-BOX 2s ease;
 }
 .sidebar__frame .sidebar__card{
     border-radius: 0px;
@@ -568,4 +572,21 @@ input:-webkit-autofill:active {
     100% {
         background-position: 0% 50%;
     }
+}
+
+@-webkit-keyframes SHOW-BOX {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+}
+@-moz-keyframes SHOW-BOX {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+}
+@-o-keyframes SHOW-BOX {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+}
+@keyframes SHOW-BOX {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
 }
