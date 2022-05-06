@@ -8,6 +8,10 @@ const Navbar = () => {
 
 	const [sidebarState, setSidebarState] = useState(false);
 
+	const toggleSidebar = () => {
+		sidebarState(!sidebarState);
+	}
+
 	return (
 		<>
 			{sidebarState?<Sidebar />:''}
@@ -64,7 +68,7 @@ const Navbar = () => {
 					</ul>
 					<ul className="navbar-nav" id="third_ul">
 						<li className="nav-item">
-							<span onClick={() => setSidebarState(!sidebarState)}>
+							<span onClick={toggleSidebar}>
 								{sidebarState?<FaIcons.FaTimes />:<VscIcons.VscThreeBars />}
 							</span>
 						</li>

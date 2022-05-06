@@ -1,32 +1,32 @@
 import { Link } from "react-router-dom";
 
-const Sidebar = () => {
+const Sidebar = ({toggleSidebar}) => {
 	return (
 		<div className="sidebar__frame">
 			<div className="sidebar__card">
 				<ul>
 					<li className="nav-item">
-						<Link to="/" className="">
+						<Link to="/" className="" onClick={toggleSidebar}>
 							What We Do
 						</Link>
 					</li>
 					<li className="nav-item">
-						<Link to="/blog" className="">
+						<Link to="/blog" className="" onClick={toggleSidebar}>
 							Where We Work
 						</Link>
 					</li>
 					<li className="nav-item">
-						<Link to="/articles" className="">
+						<Link to="/articles" className="" onClick={toggleSidebar}>
 							News & Stories
 						</Link>
 					</li>
 					<li className="nav-item">
-						<Link to="/about" className="">
+						<Link to="/about" className="" onClick={toggleSidebar}>
 							Research & Reports
 						</Link>
 					</li>
 					<li className="nav-item">
-						<Link to="/about" className="">
+						<Link to="/about" className="" onClick={toggleSidebar}>
 							About Us
 						</Link>
 					</li>
