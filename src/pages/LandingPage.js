@@ -13,11 +13,11 @@ import ArticleCard from "../components/card/ArticleCard";
 const recent_work = [
 	{
 		img: CrisisImg1,
-		text: "Ukraine Crisis"
+		text: "USA Crisis"
 	},
 	{
 		img: CrisisImg2,
-		text: "UKRAINE: 5 WAYS TO TALK TO CHILDREN ABOUT CONFLICT"
+		text: "USA: 5 WAYS TO TALK TO CHILDREN ABOUT CONFLICT"
 	},
 	{
 		img: CrisisImg3,
@@ -28,7 +28,7 @@ const recent_work = [
 const articles = [
 	{
 		img: ArticleImg1,
-		text: "BOMBS AND DEAD BODIES: CHILDREN’S DRAWINGS HAUNTED BY WAR IN UKRAINE"
+		text: "BOMBS AND DEAD BODIES: CHILDREN’S DRAWINGS HAUNTED BY WAR IN USA"
 	},
 	{
 		img: ArticleImg2,
@@ -57,7 +57,7 @@ const LandingPage = () => {
 							<div className="headerintro__card">
 								<div className="centertext__div">
 									<h1 className="call-to-action">MILLIONS OF CHILDREN IN 
-										DANGER IN UKRAINE.</h1>		
+										DANGER IN UNITED STATES.</h1>		
 									<a
 										href="donate"
 										className="donate__link">

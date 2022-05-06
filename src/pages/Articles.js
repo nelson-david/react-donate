@@ -6,7 +6,7 @@ import ArticleCard from "../components/card/ArticleCard";
 const articles = [
 	{
 		img: ArticleImg1,
-		text: "BOMBS AND DEAD BODIES: CHILDREN’S DRAWINGS HAUNTED BY WAR IN UKRAINE"
+		text: "BOMBS AND DEAD BODIES: CHILDREN’S DRAWINGS HAUNTED BY WAR IN USA"
 	},
 	{
 		img: ArticleImg2,

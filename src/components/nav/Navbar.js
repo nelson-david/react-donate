@@ -1,11 +1,15 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import * as VscIcons from "react-icons/vsc";
 import Sidebar from "./Sidebar";
 
 const Navbar = () => {
+
+	const [sidebarState, setSidebarState] = useState(false);
+
 	return (
 		<>
-			<Sidebar />
+			{sidebarState?<Sidebar />:''}
 			<nav className={`navbar navbar-expand sticky-top custom__nav`}>
 				<Link
 					className="navbar-brand"
@@ -59,7 +63,9 @@ const Navbar = () => {
 					</ul>
 					<ul className="navbar-nav" id="third_ul">
 						<li className="nav-item">
-							<span><VscIcons.VscThreeBars /></span>
+							<span onClick={() => setSidebarState(!sidebarState)}>
+								<VscIcons.VscThreeBars />
+							</span>
 						</li>
 					</ul>
 				</nav>
