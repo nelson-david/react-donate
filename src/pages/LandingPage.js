@@ -84,7 +84,7 @@ const LandingPage = () => {
 
 				<section className="savethechildren__section">
 					<div className="row justify-content-center">
-						<div className="col-xl-5 col-lg-6 col-md-7">
+						<div className="col-xl-5 col-lg-6 col-md-8 col-sm-9">
 							<h1 className="section-title">SAVE THE CHILDREN</h1>
 							<p className="section-subtitle">
 								Worldwide a perfect storm of COVID-19, conflict and the climate 
@@ -110,18 +110,17 @@ const LandingPage = () => {
 							<h1 className="section-title">OUR WORK</h1>
 							
 							<div className="worklist__div">
-								<div className="row justify-content-center">
+								<div className="row justify-content-left">
 								{
 									recent_work.map((work, index) => {
 										return (
-											<div className="col-lg-4 col-md-4">
+											<div className="col-md-4 col-sm-6 col-12">
 												<Link
 													data-aos="fade-in"
 													to="/app"
 													className="work__card">
 													<img
 														alt="Ukraine crisis"
-														className="img-fluid"
 														loading="lazy"
 														src={work.img}
 													/>
@@ -167,12 +166,14 @@ const LandingPage = () => {
 							</p>
 							
 							<div className="latestnews__div">
-								<div className="row justify-content-center">
+								<div className="row justify-content-left">
 								{
 									articles.map((article, index) => {
 										return (
-											<div className="col-md-4" key={index}>
-												<ArticleCard article={article} />
+											<div className="col-md-4 col-sm-6" key={index}>
+												<ArticleCard
+													article={article}
+												/>
 											</div>
 										)
 									})
@@ -188,13 +189,13 @@ const LandingPage = () => {
 						<div className="col-12 custom__col">
 							<div className="card talktous__card">
 								<div className="row justify-content-center">
-									<div className="col-xl-4 col-lg-3 col-md-4" data-aos="fade-in">
+									<div className="col-xl-4 col-lg-3 col-md-4 col-sm-4" data-aos="fade-in">
 										<img
 											src={ChildImg}
 											alt="childImg"
 										/>
 									</div>
-									<div className="col-xl-8 col-lg-7 col-md-7">
+									<div className="col-xl-8 col-md-7 col-sm-8">
 										<h1>WANT TO HEAR MORE FROM US?</h1>
 										<p>Find out how we're changing the lives of 
 											children – and how you can help.</p>

@@ -1,5 +1,5 @@
 import { useEffect, lazy, Suspense } from 'react';
-// import Navbar from "./components/nav/Navbar";
+import Navbar from "./components/nav/Navbar";
 // import Footer from "./components/nav/Footer";
 import { Route, Switch } from "react-router-dom";
 import LoadingCard from "./components/card/LoadingCard";
@@ -20,7 +20,7 @@ const App = () => {
 
 	return (
 		<Suspense fallback={<LoadingCard />}>
-			{/*<Navbar />*/}
+			<Navbar />
 
 			<Switch>
 				<Route path="/" exact>

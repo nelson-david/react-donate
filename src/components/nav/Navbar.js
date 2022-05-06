@@ -1,9 +1,11 @@
 import { Link } from "react-router-dom";
-// import * as VscIcons from "react-icons/vsc";
+import * as VscIcons from "react-icons/vsc";
+import Sidebar from "./Sidebar";
 
 const Navbar = () => {
 	return (
 		<>
+			<Sidebar />
 			<nav className={`navbar navbar-expand sticky-top custom__nav`}>
 				<Link
 					className="navbar-brand"
@@ -53,6 +55,11 @@ const Navbar = () => {
 							<Link to="donate" className="">
 								Donate
 							</Link>
+						</li>
+					</ul>
+					<ul className="navbar-nav" id="third_ul">
+						<li className="nav-item">
+							<span><VscIcons.VscThreeBars /></span>
 						</li>
 					</ul>
 				</nav>

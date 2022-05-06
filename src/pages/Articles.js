@@ -32,7 +32,7 @@ const Articles = () => {
 					{
 						articles.map((article, index) => {
 							return (
-								<div className="col-xl-4" key={index}>
+								<div className="col-md-4 col-sm-6" key={index}>
 									<ArticleCard article={article} />
 								</div>
 							)
