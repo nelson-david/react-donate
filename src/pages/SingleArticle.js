@@ -1,5 +1,11 @@
+import { useEffect } from "react";
 
 const SingleArticle = () => {
+
+	useEffect(() => {
+		window.scrollTo(0, 0)
+	}, [])
+
 	return (
 		<div className="container-fluid singlearticle__container">
 			<section className="singlearticle__section">
