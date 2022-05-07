@@ -498,6 +498,7 @@ input:-webkit-autofill:active {
     text-align: center;
     background-color: var(--white);
     margin-bottom: 30px;
+    transition: 0.4s all ease-in-out;
 }
 .donate__section .donateintro__card .payment__card legend{
     color: var(--accent-color);
@@ -522,7 +523,7 @@ input:-webkit-autofill:active {
     border-radius: 0.5rem;
     background-color: var(--accent-color);
     color: var(--white);
-    padding: 20px;
+    padding: 17px 20px;
     margin-left: 10px;
     margin-right: 10px;
     font-weight: 500!important;
@@ -530,6 +531,7 @@ input:-webkit-autofill:active {
     align-items: center;
     display: flex;
     box-shadow: 0 2px 25px 0 var(--accent-transparent-3);
+    font-size: 16px;
 }
 .donate__section .donateintro__card .payment__card #payment__method a:nth-child(2){
     background-color: var(--white);
@@ -541,6 +543,7 @@ input:-webkit-autofill:active {
 }
 .donate__section .donateintro__card .payment__card #payment__method a svg{
     margin-right: 3px;
+    font-size: 20px;
 }
 .donate__section .donateintro__card .payment__card #cryptocurrency__div{
     padding: 20px;

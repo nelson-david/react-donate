@@ -342,6 +342,15 @@
 	}
 }
 
+@media (max-width: 385px){
+	.singlearticle__container .singlearticle__section .singlearticle__header img{
+	    height: 200px;
+	}
+	.singlearticle__container .singlearticle__section .singlearticle__header h1{
+	    font-size: 1.4rem;
+	}	
+}
+
 @media (max-width: 330px){
 	.header__section .headerintro__card{
 	    height: 720px;
@@ -356,11 +365,21 @@
 	.donate__section .donateintro__card h1{
 	    font-size: 28px;
 	}
+	.singlearticle__container .singlearticle__section .singlearticle__header img{
+	    height: 180px;
+	}
 }
 
 @media (max-width: 320px){
 	.custom__nav nav ul#third_ul .nav-item span{
 		padding: 20px 25px;
 		font-size: 25px;
+	}
+	.singlearticle__container .singlearticle__section .singlearticle__header img{
+	    height: 170px;
+	}
+	.singlearticle__container .singlearticle__section .singlearticle__header h1{
+	    font-size: 1rem;
+	    line-height: 30px;
 	}
 }
