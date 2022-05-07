@@ -348,7 +348,16 @@
 	}
 	.singlearticle__container .singlearticle__section .singlearticle__header h1{
 	    font-size: 1.4rem;
-	}	
+	}
+	.donate__section .donateintro__card .payment__card #cryptocurrency__div{
+	    padding: 10px;
+	}
+	.donate__section .donateintro__card{
+	    padding: 30px 20px;
+	}
+	.donate__section .donateintro__card .payment__card{
+	    padding: 20px;
+	}
 }
 
 @media (max-width: 330px){
@@ -359,14 +368,14 @@
 	    font-size: 27px;
 	    line-height: 40px;
 	}
-	.donate__section .donateintro__card{
-	    padding: 50px 20px;
-	}
 	.donate__section .donateintro__card h1{
 	    font-size: 28px;
 	}
 	.singlearticle__container .singlearticle__section .singlearticle__header img{
 	    height: 180px;
+	}
+	.donate__section .donateintro__card .payment__card #payment__method a{
+	    padding: 16px 15px;
 	}
 }
 

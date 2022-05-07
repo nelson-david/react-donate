@@ -25,7 +25,7 @@ const Donate = () => {
 						<div className="col-xl-12 custom__col" data-aos="fade-in">
 							<div className="donateintro__card">
 								<div className="row justify-content-center">
-									<div className="col-xl-4 col-lg-5 col-md-8 col-12 custom__col">
+									<div className="col-xl-5 col-lg-5 col-md-8 col-12 custom__col">
 										<div className="card payment__card">
 											<legend>CHILDREN NEED YOUR HELP TODAY</legend>
 											<p>$144 could give two displaced families enough 

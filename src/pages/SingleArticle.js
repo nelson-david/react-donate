@@ -13,7 +13,7 @@ const SingleArticle = () => {
 					<div className="col-lg-8 col-md-10 col-12 custom__col" data-aos="fade-in">
 						<div className="singlearticle__header">
 							<div className="dateandlocation">
-								28 APRIL 2022 - <span>UKRAINE</span>
+								28 APRIL 2022 - <span>USA</span>
 							</div>
 							<h1>SINGLE MOM DEAD, AND LEAVES BEHIND HER THREE CHILDREN (NOW ORPHANS)</h1>
 							<img
@@ -41,7 +41,7 @@ const SingleArticle = () => {
 								opportunity to reach out to
 								Those with a giving heart to help this poor three
 								children get them a home and
-								also funds to help fund their education
+								also funds to help fund their education.
 							</p>
 						</div>
 					</div>

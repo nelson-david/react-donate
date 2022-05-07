@@ -493,7 +493,7 @@ input:-webkit-autofill:active {
     margin: 0px;
 }
 .donate__section .donateintro__card .payment__card{
-    padding: 30px 30px;
+    padding: 30px;
     box-shadow: none;
     text-align: center;
     background-color: var(--white);
