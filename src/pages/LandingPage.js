@@ -2,9 +2,6 @@ import { Link } from "react-router-dom";
 import CrisisImg1 from "../assets/img/crisis1.webp";
 import CrisisImg2 from "../assets/img/crisis2.webp";
 import CrisisImg3 from "../assets/img/crisis3.webp";
-// import ArticleImg1 from "../assets/img/article2.webp";
-import ArticleImg2 from "../assets/img/article1.webp";
-import ArticleImg3 from "../assets/img/article3.webp";
 import ChildImg from "../assets/img/smilingchild.jpg";
 import * as BsIcons from "react-icons/bs";
 import * as FaIcons from "react-icons/fa";
@@ -26,23 +23,7 @@ const recent_work = [
 	},
 ]
 
-const articles = [
-	{
-		img: "https://media.gettyimages.com/photos/mother-and-daughter-huddle-at-roadside-with-belongings-picture-id675071890?k=20&m=675071890&s=612x612&w=0&h=FUL17ixHX3Ar8Ywugh6vjuob_AgkPQxN03ZO0wrazAc=",
-		text: "BOMBS AND DEAD BODIES: CHILDREN’S DRAWINGS HAUNTED BY WAR IN USA"
-	},
-	{
-		img: ArticleImg2,
-		text: `“I WOULD NEVER WISH THIS RAMADAN ON ANYONE”: AFGHAN FAMILIES 
-			SURVIVING ON BREAD AND WATER THROUGH HOLY MONTH AS ECONOMIC CRISIS WORSENS`
-	},
-	{
-		img: ArticleImg3,
-		text: "REPORTS OF 3-MONTH OLD BABY AMONG FATALITIES OF ODESA MISSILE ATTACK"
-	},
-]
-
-const LandingPage = () => {
+const LandingPage = ({articles}) => {
 
 	const scrollToDown = (e) => {
 		e.preventDefault();

@@ -1,13 +1,20 @@
 // import { Link } from "react-router-dom";
 import * as BsIcons from "react-icons/bs";
 import * as CgIcons from "react-icons/cg";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 const Donate = () => {
+
+	const [cryptoDivState, setCryptoDivState] = useState(true);
 
 	useEffect(() => {
 		window.scrollTo(0, 0)
 	}, [])
+
+	const toggleCryptoDiv = (e) => {
+		e.preventDefault();
+		setCryptoDivState(!cryptoDivState);
+	}
 
 	return (
 		<>
@@ -24,9 +31,29 @@ const Donate = () => {
 											food to last them for a month.</p>
 
 											<div id="payment__method">
-												<a href="https://donate.com"><CgIcons.CgPaypal />Paypal</a>
-												<a href="https://donate.com">Cryptocurrency</a>
+												<a
+													href="https://donate.com"
+													target="__blank">
+													<CgIcons.CgPaypal />Paypal
+												</a>
+												<a
+													href="https://donate.com"
+													onClick={toggleCryptoDiv}
+													>
+													Cryptocurrency
+												</a>
 											</div>
+
+											{
+												cryptoDivState?
+												<div id="cryptocurrency__div">
+													<ul>
+														<li>Crypto Network: <b>BTC</b></li>
+														<li>BTC Address: <b>fgngrr9t595nf</b></li>
+													</ul>
+												</div>:''
+											}
+
 											<span><BsIcons.BsShieldLock />
 												Your donation is processed securely</span>
 										</div>

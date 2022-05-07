@@ -1,25 +1,7 @@
-import ArticleImg1 from "../assets/img/article2.webp";
-import ArticleImg2 from "../assets/img/article1.webp";
-import ArticleImg3 from "../assets/img/article3.webp";
 import ArticleCard from "../components/card/ArticleCard";
 import { useEffect } from "react";
 
-const articles = [
-	{
-		img: ArticleImg1,
-		text: "BOMBS AND DEAD BODIES: CHILDREN’S DRAWINGS HAUNTED BY WAR IN USA"
-	},
-	{
-		img: ArticleImg2,
-		text: "“I WOULD NEVER WISH THIS RAMADAN ON ANYONE”: AFGHAN FAMILIES SURVIVING ON BREAD AND WATER THROUGH HOLY MONTH AS ECONOMIC CRISIS WORSENS"
-	},
-	{
-		img: ArticleImg3,
-		text: "REPORTS OF 3-MONTH OLD BABY AMONG FATALITIES OF ODESA MISSILE ATTACK"
-	},
-]
-
-const Articles = () => {
+const Articles = ({articles}) => {
 
 	useEffect(() => {
 		window.scrollTo(0, 0)

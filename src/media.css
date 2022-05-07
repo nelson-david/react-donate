@@ -169,6 +169,13 @@
 	.custom__footer .footer__copyrightcard p{
 	    font-size: 13px;
 	}
+	.singlearticle__container .singlearticle__section .singlearticle__header .dateandlocation{
+	    font-size: 18px;
+	}
+	.singlearticle__container .singlearticle__section .singlearticle__header h1{
+	    font-size: 2.1rem;
+	    line-height: 50px;
+	}
 }
 
 @media (max-width: 767px){
@@ -195,6 +202,9 @@
 	}
 	.talktous__section .talktous__card h1{
 	    font-size: 1.5rem;
+	}
+	.singlearticle__container .singlearticle__section .singlearticle__header img{
+	    height: 350px;
 	}
 /*	h1{
 		white-space: nowrap;
@@ -259,6 +269,17 @@
 	.articlepage__header{
 	    height: 300px;
 	}
+	.singlearticle__container .singlearticle__section .singlearticle__header img{
+	    height: 250px;
+	}
+	.singlearticle__container .singlearticle__section{
+	    padding: 15px;
+	}
+	.singlearticle__container .singlearticle__section .singlearticle__header h1{
+	    font-size: 1.9rem;
+	    line-height: 50px;
+	    padding-top: 20px;
+	}
 }
 
 @media (max-width: 500px){
@@ -307,6 +328,17 @@
 	}
 	.donate__section .donateintro__card h1{
 	    font-size: 30px;
+	}
+	.singlearticle__container .singlearticle__section .singlearticle__header img{
+	    height: 250px;
+	}
+	.singlearticle__container .singlearticle__section{
+	    padding: 10px;
+	}
+	.singlearticle__container .singlearticle__section .singlearticle__header h1{
+	    font-size: 1.6rem;
+	    line-height: 40px;
+	    padding-top: 15px;
 	}
 }
 
