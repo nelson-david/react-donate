@@ -304,6 +304,14 @@
 	.header__section .headerintro__card{
 	    height: 730px;
 	}
+	.singlearticle__container .singlearticle__section .singlearticle__body a#donate__link{
+		width: 100%;
+		display: block;
+		text-align: center;
+		padding: 16px;
+		margin-top: 5px;
+		font-size: 17px;
+	}
 }
 
 @media (max-width: 450px){

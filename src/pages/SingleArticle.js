@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { Link } from "react-router-dom";
 
 const SingleArticle = () => {
 
@@ -43,6 +44,8 @@ const SingleArticle = () => {
 								children get them a home and
 								also funds to help fund their education.
 							</p>
+							<Link to="/donate" id="donate__link">Donate</Link>
+							<br /><br /><br />
 						</div>
 					</div>
 				</div>

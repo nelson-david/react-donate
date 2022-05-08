@@ -89,6 +89,50 @@ const LandingPage = ({articles}) => {
 					</div>
 				</section>
 
+				<section className="latestnews__section">
+					<div className="row justify-content-center">
+						<div className="col-xl-12">
+							<h1 className="section-title">LATEST NEWS</h1>
+							<p className="section-subtitle">
+								<Link to="/articles">
+									View All Articles <FaIcons.FaChevronRight />
+								</Link>
+							</p>
+							
+							<div className="latestnews__div">
+								<div className="row justify-content-left">
+								{
+									articles.map((article, index) => {
+										return (
+											<div className="col-md-4 col-sm-6" key={index}>
+												<ArticleCard
+													article={article}
+												/>
+											</div>
+										)
+									})
+								}
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section className="calltoaction__section">
+					<div className="row justify-content-center">
+						<div className="col-xl-12 custom__col">
+							<div className="card calltoaction__card">
+								<div className="centertext__div" data-aos="fade-in">
+									<h3>VISIT A NATIONAL ORGANISATION.</h3>
+									<p>We are a global membership organisation, made up of 
+									Save the Children International and 30 national members. 
+									We share one name, one strategy and one ambition for children.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
 				<section className="ourwork__section">
 					<div className="row justify-content-center">
 						<div className="col-12">
@@ -115,50 +159,6 @@ const LandingPage = ({articles}) => {
 						              					</h3>
 													</div>
 												</Link>
-											</div>
-										)
-									})
-								}
-								</div>
-							</div>
-						</div>
-					</div>
-				</section>
-
-				<section className="calltoaction__section">
-					<div className="row justify-content-center">
-						<div className="col-xl-12 custom__col">
-							<div className="card calltoaction__card">
-								<div className="centertext__div" data-aos="fade-in">
-									<h3>VISIT A NATIONAL ORGANISATION.</h3>
-									<p>We are a global membership organisation, made up of 
-									Save the Children International and 30 national members. 
-									We share one name, one strategy and one ambition for children.</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</section>
-
-				<section className="latestnews__section">
-					<div className="row justify-content-center">
-						<div className="col-xl-12">
-							<h1 className="section-title">LATEST NEWS</h1>
-							<p className="section-subtitle">
-								<Link to="/articles">
-									View All Articles <FaIcons.FaChevronRight />
-								</Link>
-							</p>
-							
-							<div className="latestnews__div">
-								<div className="row justify-content-left">
-								{
-									articles.map((article, index) => {
-										return (
-											<div className="col-md-4 col-sm-6" key={index}>
-												<ArticleCard
-													article={article}
-												/>
 											</div>
 										)
 									})

@@ -260,10 +260,14 @@ input:-webkit-autofill:active {
 
 .savethechildren__section{
     padding: 150px 0px;
+    padding-bottom: 100px;
 }
 
-.ourwork__section .worklist__div{
+.ourwork__section{
     padding: 100px 0px;
+}
+.ourwork__section .worklist__div{
+    padding: 70px 0px;
 }
 .ourwork__section .worklist__div .work__card{
     display: block;
@@ -349,7 +353,8 @@ input:-webkit-autofill:active {
 }
 
 .latestnews__section{
-    padding: 150px 0px;
+    padding: 100px 0px;
+    padding-top: 0px;
 }
 .latestnews__section .section-subtitle{
     font-size: 16px;
@@ -648,10 +653,26 @@ input:-webkit-autofill:active {
 }
 .singlearticle__container .singlearticle__section .singlearticle__body p{
     margin-bottom: 0px;
-    padding: 30px 5px;
+    padding: 30px 2px;
     line-height: 35px;
     font-size: 16px;
     font-weight: 400!important;
+}
+.singlearticle__container .singlearticle__section .singlearticle__body a#donate__link{
+    padding: 15px 80px;
+    background-color: var(--accent-color);
+    transition: 0.3s all ease-in-out;
+    color: var(--white);
+    border-radius: 0.3rem;
+    font-family: var(--oswald);
+    font-weight: 600!important;
+    font-size: 18px;
+    margin-left: 2px;
+    display: inline-block;
+    margin-top: 20px;
+}
+.singlearticle__container .singlearticle__section .singlearticle__body a#donate__link:hover{
+    background-color: var(--accent-dub);
 }
 
 
