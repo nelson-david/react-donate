@@ -91,6 +91,11 @@
 	}
 }
 
+@media (min-width: 992px){
+	.sidebar__frame{
+		display: none;
+	}
+}
 @media (max-width: 991px){
 	.header__section .headerintro__card .centertext__div h1.call-to-action{
 	    font-size: 45px;

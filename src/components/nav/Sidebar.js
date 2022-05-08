@@ -31,6 +31,7 @@ const Sidebar = ({toggleSidebar}) => {
 						</Link>
 					</li>
 				</ul>
+				<Link to="/donate" id="donate__link">Donate</Link>
 			</div>
 		</div>
 	)
