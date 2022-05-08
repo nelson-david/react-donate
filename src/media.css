@@ -1,12 +1,12 @@
 
 @media (max-width: 1345px){
 	.header__section .headerintro__card{
-	    height: 780px;
+	    height: 700px;
 	}
 }
 @media (max-width: 1199px){
 	.header__section .headerintro__card{
-	    height: 760px;
+	    height: 700px;
 	}
 	.header__section .headerintro__card .centertext__div h1.call-to-action{
 	    font-size: 60px;
@@ -96,7 +96,7 @@
 	    font-size: 45px;
 	}
 	.header__section .headerintro__card{
-	    height: 800px;
+	    height: 670px;
 	}
 	.ourwork__section .worklist__div .work__card .workcard__caption h3{
 	    font-size: 2rem;
@@ -295,9 +295,15 @@
 	}
 }
 
+@media (max-width: 485px){
+	.header__section .headerintro__card{
+	    height: 730px;
+	}
+}
+
 @media (max-width: 450px){
 	.header__section .headerintro__card{
-	    height: 820px;
+	    height: 650px;
 	}
 	.header__section .headerintro__card .centertext__div h1.call-to-action{
 	    font-size: 30px;
@@ -364,9 +370,15 @@
 	}
 }
 
+@media (max-width: 368px){
+	.header__section .headerintro__card{
+	    height: 730px;
+	}
+}
+
 @media (max-width: 330px){
 	.header__section .headerintro__card{
-	    height: 900px;
+	    height: 690px;
 	}
 	.header__section .headerintro__card .centertext__div h1.call-to-action{
 	    font-size: 27px;

@@ -159,7 +159,7 @@ input:-webkit-autofill:active {
 /* Landing Page */
 .header__section .headerintro__card{
     box-shadow: none;
-    height: 650px;
+    height: 620px;
     padding: 0px;
     background-color: #222221;
     background-image: url('./assets/img/header_img.jpg');

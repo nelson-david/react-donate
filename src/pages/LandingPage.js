@@ -53,14 +53,9 @@ const LandingPage = ({articles}) => {
 									<div className="header__paragraph">
 										<p>Every war is a war against children.</p>
 										<p id="second">
-											Living in poverty often means going without basic needs 
-											such as food, clothing and adequate shelter.
 											A child shouldn’t have to worry about the roof over their 
-											head or food on their plate. We support programs that 
-											are on the ground across the globe that are working 
-											tirelessly to save the lives of severely malnourished 
-											and homeless children so they can grow, learn, play and 
-											develop to become thriving, active members of their community.
+											head or food on their plate. That is why we started this
+											movement, to support poor children.
 										</p>
 										<a href="#recent" onClick={scrollToDown}>
 											<BsIcons.BsChevronDoubleDown />
@@ -77,18 +72,18 @@ const LandingPage = ({articles}) => {
 						<div className="col-xl-5 col-lg-6 col-md-8 col-sm-9">
 							<h1 className="section-title">SAVE THE CHILDREN</h1>
 							<p className="section-subtitle">
-								Worldwide a perfect storm of COVID-19, conflict and the climate 
-								crisis has left children vulnerable to critical levels of 
-								hunger and poverty.
+								Living in poverty often means going without basic needs 
+								such as food, clothing and adequate shelter.
 								<br /><br />
-								We are gravely concerned for children in USA, Afghanistan 
-								and around the world who might be caught in the middle of armed conflict.
+								A child shouldn’t have to worry about the roof over their 
+								head or food on their plate.
 								<br /><br />
-								Their right to survival, protection and education is under 
-								immediate threat.
-								<br /><br />
-								But, we can do something about it. Help us to protect children 
-								to ensure they not only survive but thrive.
+								We support programs that are on the ground across the globe 
+								that are working tirelessly to save the
+
+								lives of severely malnourished and homeless children so 
+								they can grow, learn, play and develop to become thriving,
+								active members of their community.
 							</p>
 						</div>
 					</div>
