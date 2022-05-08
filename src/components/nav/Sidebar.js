@@ -30,8 +30,13 @@ const Sidebar = ({toggleSidebar}) => {
 							About Us
 						</Link>
 					</li>
+					<br />
+					<li className="nav-item">
+						<Link to="/donate" id="donate__link" onClick={toggleSidebar}>
+							Donate
+						</Link>
+					</li>
 				</ul>
-				<Link to="/donate" id="donate__link">Donate</Link>
 			</div>
 		</div>
 	)
