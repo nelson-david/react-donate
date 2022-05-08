@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const SingleArticle = () => {
 
 	useEffect(() => {
-		window.scrollTo(0, 0)
+		// window.scrollTo(0, 0)
 	}, [])
 
 	return (
@@ -27,21 +27,27 @@ const SingleArticle = () => {
 						</div>
 						<div className="singlearticle__body">
 							<p>
-								Living in poverty often means going without basic needs such as food, clothing and adequate shelter.
-								A child shouldn’t have to worry about the roof over their head or food on their plate. We support programs that are on the ground across the globe that are working tirelessly to save the lives of severely malnourished and homeless children so they can grow, learn, play and develop to become thriving, active members of their community.
-
+								Living in poverty often means going without basic needs such as food, clothing 
+									and adequate shelter.
+									A child shouldn’t have to worry about the roof over their head or food 
+									on their plate.
+									<br />
+									We support programs that are on the ground across the globe that are 
+									working tirelessly to save the lives of severely malnourished and homeless 
+									children so they can grow, learn, play and develop to become thriving, 
+									active members of their community.
+								<br /><br />
 								Mary who died 1 month ago and she lost
 								her husband two years ago, she had
 								three children two girls and a boy, and Mary had no family.
-								she had no parents and relative she
+								<br />She had no parents and relative she
 								was the only one taking care of her
 								children over two years until she was involved in a car accident which took her precious life
 								painful that she died and left three
-								children behind, a friend of her’s Vanessa
-								took them in and have been taking care of them that’s why we’ve decided to help create a platform which is an
-								opportunity to reach out to
-								Those with a giving heart to help this poor three
-								children get them a home and
+								children behind, a friend of hers Vanessa
+								took them in and have been taking care of them that’s why we’ve decided to help 
+								create a platform which is an opportunity to reach out to those with a giving 
+								heart to help this poor three children get them a home and
 								also funds to help fund their education.
 							</p>
 							<Link to="/donate" id="donate__link">Donate</Link>

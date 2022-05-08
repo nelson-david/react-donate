@@ -605,6 +605,7 @@ input:-webkit-autofill:active {
     width: auto;
     font-size: 40px;
     margin-left: 25px;
+    text-align: center;
 }
 .donate__section .donateintro__card h1 span{
     color: var(--accent-color);

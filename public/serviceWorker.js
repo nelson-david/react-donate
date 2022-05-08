@@ -1,4 +1,4 @@
-// let CACHE_NAME = 'saam_cache';
+// let CACHE_NAME = 'stcm_cache';
 // const urlsToCache = [
 // 	'/',
 // 	'https://res.cloudinary.com/iodiary/raw/upload/v1641255618/fonts/blanka_naxhhv.otf',
