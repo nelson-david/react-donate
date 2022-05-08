@@ -1,5 +1,9 @@
 
-
+@media (max-width: 1345px){
+	.header__section .headerintro__card{
+	    height: 780px;
+	}
+}
 @media (max-width: 1199px){
 	.header__section .headerintro__card{
 	    height: 760px;
@@ -141,7 +145,7 @@
 	    height: 350px;
 	}
 	.header__section .headerintro__card .centertext__div .header__paragraph p#second{
-	    padding: 10px 140px;
+	    padding: 10px 80px;
 	}
 	.ourwork__section .worklist__div .work__card .workcard__caption h3{
 	    font-size: 1.5rem;
@@ -215,7 +219,7 @@
 
 @media (max-width: 700px){
 	.header__section .headerintro__card .centertext__div .header__paragraph p#second{
-	    padding: 10px 70px;
+	    padding: 10px 30px;
 	}
 	.header__section .headerintro__card .centertext__div .header__paragraph a{
 	    padding: 45px 5px;
@@ -362,7 +366,7 @@
 
 @media (max-width: 330px){
 	.header__section .headerintro__card{
-	    height: 850px;
+	    height: 900px;
 	}
 	.header__section .headerintro__card .centertext__div h1.call-to-action{
 	    font-size: 27px;

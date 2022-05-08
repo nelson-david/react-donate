@@ -66,10 +66,9 @@ const Footer = () => {
 			</div>
 			<div className="footer__copyrightcard">
 				<p>Save the Children International is a company limited by 
-				guarantee, registered in England and Wales with company number 
-				3732267 and a charity registered in England and Wales with 
-				charity number 1076822. Its registered office is St Vincent 
-				House, 30 Orange Street, London, WC2H 7HH © 2022 Save the 
+				guarantee, registered in Virginia and Chicago.
+				Its registered office is North Birmingham, 30 Orange Street, 
+				USA, WC2H 7HH © 2022 Save the 
 				Children International</p>
 			</div>
 		</footer>
