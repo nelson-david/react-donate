@@ -10,7 +10,7 @@ const ArticleCard = ({article}) => {
 				/>
 			</Link>
 			<div className="dateandlocation">
-				28 APRIL 2022 - <span>UKRAINE</span>
+				28 APRIL 2022 - <span>USA</span>
 			</div>
 			<Link to={`/article/${article.link}`}>
 				<p className="article__text">

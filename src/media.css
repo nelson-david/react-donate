@@ -2,7 +2,7 @@
 
 @media (max-width: 1199px){
 	.header__section .headerintro__card{
-	    height: 650px;
+	    height: 760px;
 	}
 	.header__section .headerintro__card .centertext__div h1.call-to-action{
 	    font-size: 60px;
@@ -92,7 +92,7 @@
 	    font-size: 45px;
 	}
 	.header__section .headerintro__card{
-	    height: 680px;
+	    height: 800px;
 	}
 	.ourwork__section .worklist__div .work__card .workcard__caption h3{
 	    font-size: 2rem;
@@ -293,7 +293,7 @@
 
 @media (max-width: 450px){
 	.header__section .headerintro__card{
-	    height: 700px;
+	    height: 820px;
 	}
 	.header__section .headerintro__card .centertext__div h1.call-to-action{
 	    font-size: 30px;
@@ -362,7 +362,7 @@
 
 @media (max-width: 330px){
 	.header__section .headerintro__card{
-	    height: 720px;
+	    height: 850px;
 	}
 	.header__section .headerintro__card .centertext__div h1.call-to-action{
 	    font-size: 27px;

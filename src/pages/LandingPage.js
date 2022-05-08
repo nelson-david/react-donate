@@ -53,10 +53,14 @@ const LandingPage = ({articles}) => {
 									<div className="header__paragraph">
 										<p>Every war is a war against children.</p>
 										<p id="second">
-											Over 5 million people have fled the violence to 
-											neighbouring countries. Two-thirds of all children 
-											have had to leave their home. They are in urgent 
-											need of support.
+											Living in poverty often means going without basic needs 
+											such as food, clothing and adequate shelter.
+											A child shouldn’t have to worry about the roof over their 
+											head or food on their plate. We support programs that 
+											are on the ground across the globe that are working 
+											tirelessly to save the lives of severely malnourished 
+											and homeless children so they can grow, learn, play and 
+											develop to become thriving, active members of their community.
 										</p>
 										<a href="#recent" onClick={scrollToDown}>
 											<BsIcons.BsChevronDoubleDown />

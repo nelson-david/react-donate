@@ -18,9 +18,6 @@ const Footer = () => {
 									<li>Australia</li>
 									<li>Canada</li>
 									<li>Denmark</li>
-									<li>Dominican Republic</li>
-									<li>Eswatini</li>
-									<li>Fiji</li>
 									<li>Finland</li>
 									<li>Germany</li>
 								</ul>
@@ -28,10 +25,7 @@ const Footer = () => {
 							<div className="col-sm-4 col-6">
 								<ul>
 									<li>Honduras</li>
-									<li>Hong Kong SAR</li>
 									<li>Iceland</li>
-									<li>India</li>
-									<li>Indonesia</li>
 									<li>Italy</li>
 									<li>Japan</li>
 									<li>Jordan</li>
@@ -40,13 +34,10 @@ const Footer = () => {
 							<div className="col-sm-4 col-6">
 								<ul>
 									<li>Korea</li>
-									<li>Lithuania</li>
 									<li>Mexico</li>
 									<li>Netherlands</li>
 									<li>New Zealand</li>
 									<li>Norway</li>
-									<li>Philippines</li>
-									<li>Romania</li>
 								</ul>
 							</div>
 						</div>
