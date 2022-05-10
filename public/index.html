@@ -45,168 +45,39 @@
   <body>
     <noscript>Save The Children International - USA Fund Raising Movement</noscript>
     <div id="root">
-
-            <div className="container-fluid landingpage__container">
-                <section className="header__section">
-                    <div className="row justify-content-center">
-                        <div className="col-12 custom__col" data-aos="fade-in">
-                            <div className="headerintro__card">
-                                <div className="centertext__div">
-                                    <h1 className="call-to-action">MILLIONS OF CHILDREN IN 
-                                        DANGER IN UNITED STATES.</h1>       
-                                    <Link
-                                        to="/donate"
-                                        className="donate__link">
-                                        Donate now
-                                    </Link>
-                                    <br />
-                                    <div className="header__paragraph">
-                                        <p>Every war is a war against children.</p>
-                                        <p id="second">
-                                            A child shouldn’t have to worry about the roof over their 
-                                            head or food on their plate. That is why we started this
-                                            movement, to support poor children.
-                                        </p>
-                                        <a href="#recent" onClick={scrollToDown}>
-                                            <BsIcons.BsChevronDoubleDown />
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                <section className="savethechildren__section">
-                    <div className="row justify-content-center">
-                        <div className="col-xl-5 col-lg-6 col-md-8 col-sm-9">
-                            <h2 className="section-title">SAVE THE CHILDREN</h2>
-                            <p className="section-subtitle">
-                                Living in poverty often means going without basic needs 
-                                such as food, clothing and adequate shelter.
-                                <br /><br />
-                                A child shouldn’t have to worry about the roof over their 
-                                head or food on their plate.
-                                <br /><br />
-                                We support programs that are on the ground across the globe 
-                                that are working tirelessly to save the
-
-                                lives of severely malnourished and homeless children so 
-                                they can grow, learn, play and develop to become thriving,
-                                active members of their community.
-                            </p>
-                        </div>
-                    </div>
-                </section>
-
-                <section className="latestnews__section">
-                    <div className="row justify-content-center">
-                        <div className="col-xl-12">
-                            <h2 className="section-title">LATEST NEWS</h2>
-                            <p className="section-subtitle">
-                                <Link to="/articles">
-                                    View All Articles <FaIcons.FaChevronRight />
-                                </Link>
-                            </p>
-                            
-                            <div className="latestnews__div">
-                                <div className="row justify-content-left">
-                                {
-                                    articles.map((article, index) => {
-                                        return (
-                                            <div className="col-md-4 col-sm-6" key={index}>
-                                                <ArticleCard
-                                                    article={article}
-                                                />
-                                            </div>
-                                        )
-                                    })
-                                }
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                <section className="calltoaction__section">
-                    <div className="row justify-content-center">
-                        <div className="col-xl-12 custom__col">
-                            <div className="card calltoaction__card">
-                                <div className="centertext__div" data-aos="fade-in">
-                                    <h3>VISIT A NATIONAL ORGANISATION.</h3>
-                                    <p>We are a global membership organisation, made up of 
-                                    Save the Children International and 30 national members. 
-                                    We share one name, one strategy and one ambition for children.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                <section className="ourwork__section">
-                    <div className="row justify-content-center">
-                        <div className="col-12">
-                            <h2 className="section-title">OUR WORK</h2>
-                            
-                            <div className="worklist__div">
-                                <div className="row justify-content-left">
-                                {
-                                    recent_work.map((work, index) => {
-                                        return (
-                                            <div className="col-md-4 col-sm-6 col-12">
-                                                <Link
-                                                    data-aos="fade-in"
-                                                    to="/app"
-                                                    className="work__card">
-                                                    <img
-                                                        alt="USA crisis"
-                                                        loading="lazy"
-                                                        src={work.img}
-                                                    />
-                                                    <div className="workcard__caption">
-                                                        <h3 className="recent-work">
-                                                            <span>{work.text}</span>
-                                                        </h3>
-                                                    </div>
-                                                </Link>
-                                            </div>
-                                        )
-                                    })
-                                }
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                <section className="talktous__section">
-                    <div className="row justify-content-center">
-                        <div className="col-12 custom__col">
-                            <div className="card talktous__card">
-                                <div className="row justify-content-center">
-                                    <div className="col-xl-4 col-lg-3 col-md-4 col-sm-4" data-aos="fade-in">
-                                        <img
-                                            src={ChildImg}
-                                            alt="childImg"
-                                        />
-                                    </div>
-                                    <div className="col-xl-8 col-md-7 col-sm-8">
-                                        <h2>WANT TO HEAR MORE FROM US?</h2>
-                                        <p>Find out how we're changing the lives of 
-                                            children – and how you can help.</p>
-                                        <span>You can unsubscribe at any time. Our email newsletter 
-                                        is administered by Save the Children US, whose privacy 
-                                        policy tells you more about how we use your information. 
-                                        Over 18s only.</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-            </div>
-            
+        <div className="fixed-top loading__card">
+            <p>
+                <svg stroke="currentColor" fill="currentColor" stroke-width="0" version="1.1" viewBox="0 0 16 16" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M8 16c-2.137 0-4.146-0.832-5.657-2.343s-2.343-3.52-2.343-5.657c0-1.513 0.425-2.986 1.228-4.261 0.781-1.239 1.885-2.24 3.193-2.895l0.672 1.341c-1.063 0.533-1.961 1.347-2.596 2.354-0.652 1.034-0.997 2.231-0.997 3.461 0 3.584 2.916 6.5 6.5 6.5s6.5-2.916 6.5-6.5c0-1.23-0.345-2.426-0.997-3.461-0.635-1.008-1.533-1.822-2.596-2.354l0.672-1.341c1.308 0.655 2.412 1.656 3.193 2.895 0.803 1.274 1.228 2.748 1.228 4.261 0 2.137-0.832 4.146-2.343 5.657s-3.52 2.343-5.657 2.343z"></path></svg>
+            </p>
+        </div>
     </div>
+
+    <style>
+        .loading__card{
+            border: none;
+            text-align: center;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(255,255,255,0.3);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            align-content: center;   
+        }
+        .loading__card p{
+            display: block;
+            padding: 20px;
+            padding-top: 0px;
+            padding-bottom: 0px;
+            text-align: center;
+            font-size: 50px;
+            color: var(--accent-color);
+        }
+        .loading__card p svg{
+            -webkit-animation: spin-animation 0.5s infinite linear;
+            animation: spin-animation 0.5s infinite linear;
+        }
+    </style>
 
     <script>
       if ('serviceWorker' in navigator){

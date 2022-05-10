@@ -9,7 +9,7 @@ const Articles = ({articles}) => {
 	
 	return (
 		<div data-aos="fade-in">
-			<div className="jumbotron articlepage__header">
+			<div className="jumbotron page__header article__page">
 				<div className="centertext__div">
 					<h1 className="call-to-action">NEWS</h1>	
 				</div>

@@ -6,12 +6,12 @@ const Sidebar = ({toggleSidebar}) => {
 			<div className="sidebar__card">
 				<ul>
 					<li className="nav-item">
-						<Link to="/" className="" onClick={toggleSidebar}>
+						<Link to="what-we-do" className="" onClick={toggleSidebar}>
 							What We Do
 						</Link>
 					</li>
 					<li className="nav-item">
-						<Link to="/blog" className="" onClick={toggleSidebar}>
+						<Link to="/where-we-work" className="" onClick={toggleSidebar}>
 							Where We Work
 						</Link>
 					</li>
@@ -21,12 +21,12 @@ const Sidebar = ({toggleSidebar}) => {
 						</Link>
 					</li>
 					<li className="nav-item">
-						<Link to="/about" className="" onClick={toggleSidebar}>
+						<Link to="/research-reports" className="" onClick={toggleSidebar}>
 							Research & Reports
 						</Link>
 					</li>
 					<li className="nav-item">
-						<Link to="/about" className="" onClick={toggleSidebar}>
+						<Link to="/about-us" className="" onClick={toggleSidebar}>
 							About Us
 						</Link>
 					</li>

@@ -97,6 +97,27 @@
 	}
 }
 @media (max-width: 991px){
+	.page__container .section-title{
+	    font-size: 2.6rem;
+	}
+	.inspiration__section .inspiration__card .centertext__div{
+	    padding: 120px 50px;
+	}
+	.inspiration__section .inspiration__card h3{
+	    font-size: 3rem;
+	}
+	.inspiration__section .inspiration__card p{
+	    padding: 30px 0px;
+	}
+	.help__section .help__card{
+	    padding: 120px 80px;
+	}
+	.help__section .help__card h3{
+	    font-size: 2.6rem;
+	}
+	.help__section .help__card a{
+	    font-size: 2.4rem;   
+	}
 	.header__section .headerintro__card .centertext__div h1.call-to-action{
 	    font-size: 45px;
 	}
@@ -188,6 +209,32 @@
 }
 
 @media (max-width: 767px){
+	.search__section .popularsearch__section h4{
+	    font-size: 1rem;
+	    font-weight: 600!important;
+	}
+	.search__section .popularsearch__section ul li a{
+	    padding: 15px 0px;
+	    font-size: 13px;
+	}
+	.page__container .section-title{
+	    font-size: 2.4rem;
+	}
+	.inspiration__section .inspiration__card .centertext__div{
+	    padding: 120px 30px;
+	}
+	.inspiration__section .inspiration__card h3{
+	    font-size: 2.6rem;
+	}
+	.help__section .help__card{
+	    padding: 80px 60px;
+	}
+	.help__section .help__card h3{
+	    font-size: 2.4rem;
+	}
+	.help__section .help__card a{
+	    font-size: 2.2rem;   
+	}
 	.ourwork__section .worklist__div .work__card .workcard__caption h3{
 	    font-size: 1.2rem;
 	    line-height: 30px;
@@ -250,9 +297,40 @@
 	.donate__section .donateintro__card{
 	    padding: 50px 65px;
 	}
+	.page__container .section-title{
+	    font-size: 2rem;
+	}
+	.inspiration__section .inspiration__card{
+	    height: 640px;
+	}
+	.inspiration__section .inspiration__card .centertext__div{
+	    padding: 120px 30px;
+	}
+	.inspiration__section .inspiration__card h3{
+	    font-size: 2rem;
+	}
+	.help__section .help__card{
+	    padding: 80px 50px;
+	}
+	.help__section .help__card h3{
+	    font-size: 2rem;
+	}
+	.help__section .help__card a{
+	    font-size: 1.8rem;   
+	}
 }
 
 @media (max-width: 575px){
+	.search__section .popularsearch__section h4{
+	    font-size: 1.4rem;
+	}
+	.search__section .popularsearch__section ul li a{
+	    font-size: 13px;
+	    font-weight: 500!important;
+	}
+	.search__section .popularsearch__section ul li a.last-child{
+	    margin-bottom: 20px;
+	}
 	.header__section .headerintro__card .centertext__div h1.call-to-action{
 	    font-size: 35px;
 	    line-height: 60px;
@@ -298,6 +376,28 @@
 	.donate__section .donateintro__card h1{
 	    font-size: 35px;
 	}
+	.rights__section{
+	    padding: 70px 0px;
+	    padding-bottom: 150px;
+	}
+	.page__container .section-title{
+	    font-size: 1.8rem;
+	}
+	.inspiration__section .inspiration__card{
+	    height: 700px;
+	}
+	.inspiration__section .inspiration__card .centertext__div{
+	    padding: 120px 10px;
+	}
+	.inspiration__section .inspiration__card h3{
+	    font-size: 1.8rem;
+	}
+	.help__section .help__card h3{
+	    font-size: 1.8rem;
+	}
+	.help__section .help__card a{
+	    font-size: 1.6rem;   
+	}
 }
 
 @media (max-width: 485px){
@@ -339,6 +439,12 @@
 }
 
 @media (max-width: 425px){
+	.inspiration__section .inspiration__card .centertext__div{
+	    padding: 50px 10px;
+	}
+	.help__section .help__card{
+	    padding: 80px 10px;
+	}
 	.custom__nav nav ul#third_ul .nav-item span{
 		padding: 20px 30px;
 		font-size: 25px;
@@ -387,6 +493,15 @@
 	.header__section .headerintro__card{
 	    height: 730px;
 	}
+	.inspiration__section .inspiration__card{
+	    height: 750px;
+	}
+}
+
+@media (max-width: 350px){
+	.inspiration__section .inspiration__card{
+	    height: 800px;
+	}
 }
 
 @media (max-width: 330px){
@@ -419,5 +534,8 @@
 	.singlearticle__container .singlearticle__section .singlearticle__header h1{
 	    font-size: 1rem;
 	    line-height: 30px;
+	}
+	.inspiration__section .inspiration__card{
+	    height: 850px;
 	}
 }

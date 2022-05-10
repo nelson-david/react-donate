@@ -14,6 +14,10 @@ const LandingPage = lazy(() => import('./pages/LandingPage'));
 const Articles = lazy(() => import('./pages/Articles'));
 const SingleArticle = lazy(() => import('./pages/SingleArticle'));
 const Donate = lazy(() => import('./pages/Donate'));
+const Work = lazy(() => import('./pages/Work'));
+const About = lazy(() => import('./pages/About'));
+const WhatWeDo = lazy(() => import('./pages/WhatWeDo'));
+const ResearchReports = lazy(() => import('./pages/ResearchReports'));
 
 const articles = [
 	{
@@ -56,6 +60,18 @@ const App = () => {
 				</Route>
 				<Route path="/donate/" exact>
 					<Donate />
+				</Route>
+				<Route path="/research-reports/" exact>
+					<ResearchReports articles={articles} />
+				</Route>
+				<Route path="/where-we-work/" exact>
+					<Work />
+				</Route>
+				<Route path="/what-we-do/" exact>
+					<WhatWeDo />
+				</Route>
+				<Route path="/about-us/" exact>
+					<About />
 				</Route>
 			</Switch>
 			<Footer />

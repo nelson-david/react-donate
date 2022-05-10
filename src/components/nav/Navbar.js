@@ -32,12 +32,12 @@ const Navbar = () => {
 				<nav className="ml-auto">
 					<ul className="navbar-nav" id="first_ul">
 						<li className="nav-item">
-							<Link to="/" className="">
+							<Link to="/what-we-do" className="">
 								What We Do
 							</Link>
 						</li>
 						<li className="nav-item">
-							<Link to="/blog" className="">
+							<Link to="/where-we-work" className="">
 								Where We Work
 							</Link>
 						</li>
@@ -47,12 +47,12 @@ const Navbar = () => {
 							</Link>
 						</li>
 						<li className="nav-item">
-							<Link to="/about" className="">
+							<Link to="/research-reports" className="">
 								Research & Reports
 							</Link>
 						</li>
 						<li className="nav-item">
-							<Link to="/about" className="">
+							<Link to="/about-us" className="">
 								About Us
 							</Link>
 						</li>
@@ -62,7 +62,7 @@ const Navbar = () => {
 				<nav className="ml-auto">
 					<ul className="navbar-nav" id="second_ul">
 						<li className="nav-item">
-							<Link to="donate" className="">
+							<Link to="/donate" className="">
 								Donate
 							</Link>
 						</li>

@@ -1,15 +1,17 @@
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import * as BsIcons from "react-icons/bs";
 import * as CgIcons from "react-icons/cg";
 import * as FaIcons from "react-icons/fa";
 import { useEffect, useState } from "react";
+import ContributorsModal from "../components/card/ContributorsModal"
 
 const Donate = () => {
 
 	const [cryptoDivState, setCryptoDivState] = useState(false);
+	const [contributorsModal, setContributorsModal] = useState(false);
 
 	useEffect(() => {
-		window.scrollTo(0, 0)
+		window.scrollTo(0, 0);
 	}, [])
 
 	const toggleCryptoDiv = (e) => {
@@ -17,8 +19,16 @@ const Donate = () => {
 		setCryptoDivState(!cryptoDivState);
 	}
 
+	const toggleContributorModal = (e) => {
+		e.preventDefault();
+		setContributorsModal(!contributorsModal);
+	}
+
 	return (
 		<>
+			{contributorsModal?<ContributorsModal
+					closeModal={toggleContributorModal}
+			/>:''}
 			<div className="container-fluid donate__container">
 				<section className="donate__section">
 					<div className="row justify-content-center">
@@ -58,6 +68,13 @@ const Donate = () => {
 
 											<span><BsIcons.BsShieldLock />
 												Your donation is processed securely</span>
+											<Link
+												to="/contributors"
+												id="contributor__link"
+												onClick={toggleContributorModal}
+											>
+												View All Contributors
+											</Link>
 										</div>
 									</div>
 									<div className="col-xl-6 col-lg-6 col-md-10 col-12 custom__col">
