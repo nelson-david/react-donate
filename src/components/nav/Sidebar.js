@@ -6,7 +6,7 @@ const Sidebar = ({toggleSidebar}) => {
 			<div className="sidebar__card">
 				<ul>
 					<li className="nav-item">
-						<Link to="what-we-do" className="" onClick={toggleSidebar}>
+						<Link to="/what-we-do" className="" onClick={toggleSidebar}>
 							What We Do
 						</Link>
 					</li>

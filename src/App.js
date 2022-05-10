@@ -3,9 +3,9 @@ import Navbar from "./components/nav/Navbar";
 import Footer from "./components/nav/Footer";
 import { Route, Switch } from "react-router-dom";
 import LoadingCard from "./components/card/LoadingCard";
-// import ArticleImg1 from "./assets/img/article2.webp";
 import ArticleImg2 from "./assets/img/article1.webp";
 import ArticleImg3 from "./assets/img/article3.webp";
+import { ToastContainer, toast } from "react-toastify";
 import Aos from "aos";
 
 const config = require("./config")["development"];
@@ -18,6 +18,7 @@ const Work = lazy(() => import('./pages/Work'));
 const About = lazy(() => import('./pages/About'));
 const WhatWeDo = lazy(() => import('./pages/WhatWeDo'));
 const ResearchReports = lazy(() => import('./pages/ResearchReports'));
+const AddContributor = lazy(() => import("./pages/AddContributor"));
 
 const articles = [
 	{
@@ -39,15 +40,28 @@ const articles = [
 
 const App = () => {
 
+	const successToast = (success) => toast.success(`${success}`, tsStyle);
+	const errorToast = (error) => toast.error(`${error}`, tsStyle);
+
 	useEffect(() => {
 		Aos.init({
 			duration: config.aosDuration
 		});
 	}, []);
 
+    const tsStyle = {
+        position: "top-right",
+        autoClose: 3500,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+    }
+
 	return (
 		<Suspense fallback={<LoadingCard />}>
 			<Navbar />
+			<ToastContainer />
 			<Switch>
 				<Route path="/" exact>
 					<LandingPage articles={articles} />
@@ -55,7 +69,9 @@ const App = () => {
 				<Route path="/articles/" exact>
 					<Articles articles={articles} />
 				</Route>
-				<Route path="/article/single-mom-dead-and-leaves-behind-her-children/" exact>
+				<Route
+					path="/article/single-mom-dead-and-leaves-behind-her-children/"
+					exact>
 					<SingleArticle />
 				</Route>
 				<Route path="/donate/" exact>
@@ -72,6 +88,12 @@ const App = () => {
 				</Route>
 				<Route path="/about-us/" exact>
 					<About />
+				</Route>
+				<Route path="/admin/secure/add/contributor/" exact>
+					<AddContributor
+						successToast={successToast}
+						errorToast={errorToast}
+					/>
 				</Route>
 			</Switch>
 			<Footer />
