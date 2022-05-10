@@ -19,6 +19,7 @@ const About = lazy(() => import('./pages/About'));
 const WhatWeDo = lazy(() => import('./pages/WhatWeDo'));
 const ResearchReports = lazy(() => import('./pages/ResearchReports'));
 const AddContributor = lazy(() => import("./pages/AddContributor"));
+const NotFound = lazy(() => import('./pages/NotFound'));
 
 const articles = [
 	{
@@ -94,6 +95,9 @@ const App = () => {
 						successToast={successToast}
 						errorToast={errorToast}
 					/>
+				</Route>
+				<Route>
+					<NotFound />
 				</Route>
 			</Switch>
 			<Footer />

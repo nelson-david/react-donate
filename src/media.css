@@ -317,6 +317,16 @@
 	}
 }
 
+@media (max-width: 650px){
+	.notfound__card div:first-child img{
+	    width: 30%;
+	    margin-bottom: 0px;
+	}
+	.notfound__card div:first-child h3{
+	    font-size: 50px;
+	}
+}
+
 @media (max-width: 600px){
 	.donate__section .donateintro__card{
 	    padding: 50px 65px;
@@ -479,6 +489,13 @@
 	.calltoaction__section .calltoaction__card h3{
 	    font-size: 1.5rem;
 	}
+	.notfound__card div:first-child img{
+	    width: 40%;
+	    margin-bottom: 0px;
+	}
+	.notfound__card div:first-child h3{
+	    font-size: 40px;
+	}
 }
 
 @media (max-width: 425px){
@@ -578,6 +595,15 @@
 	}
 	.donate__section .donateintro__card .payment__card #payment__method a{
 	    padding: 16px 15px;
+	}
+	.notfound__card{
+	    padding: 10px;
+	}
+	.notfound__card div:first-child img{
+	    width: 50%;
+	}
+	.notfound__card div:first-child h3{
+	    font-size: 35px;
 	}
 }
 
